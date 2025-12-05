@@ -9,3 +9,5 @@ def test_add():
 def test_mult():
     assert mult(3, 5) == 15 
     
+def test_dev():
+    assert dev(10, 5) == 2
