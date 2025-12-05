@@ -7,5 +7,5 @@ def add(a:int, b:int):
 def mult(a:int, b:int):
     return a*b
 
-def div(a:int, b,int):
+def div(a:int, b:int):
     return a/b
