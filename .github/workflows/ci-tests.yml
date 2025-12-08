@@ -40,7 +40,7 @@ jobs:
           run: docker save bestapp:latest -o bestapp.tar
 
         - name: Fix permissions
-          run: sudo chmode 644 bestapp.tar
+          run: sudo chmod 644 bestapp.tar
 
         - name: copy image to server
           uses: appleboy/scp-action@v0.1.7
